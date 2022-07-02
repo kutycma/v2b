@@ -106,14 +106,14 @@ error_detect_depends() {
 # Cài đặt trước cài đặt
 pre_install_docker_compose() {
   echo -e "  [1] xn--ss-8ja.vn"
-  echo -e "  [2] xn--ss-8ja.vn"
+  echo -e "  [2] https xn--ss-8ja.vn"
   read -p "  Web đang sử dụng:" api_host
   if [ "$api_host" == "1" ]; then
-    api_host="https://xn--ss-8ja.vn/"
+    api_host="http://xn--ss-8ja.vn/"
   elif [ "$api_host" == "2" ]; then
     api_host="https://xn--ss-8ja.vn/"
   else 
-    api_host="http://https://xn--ss-8ja.vn/"
+    api_host="https://xn--ss-8ja.vn/"
   fi
 
   echo "--------------------------------"
@@ -182,7 +182,7 @@ Nodes:
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
       ApiHost: "https://xn--ss-8ja.vn"
-      ApiKey: "12345"
+      ApiKey: "Zicfreesingaporee"
       NodeID: 41
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
@@ -352,8 +352,8 @@ Install_xrayr() {
 clear
 while true; do
   echo "  -----XrayR Zic-----"
-  echo "  Zic XrayR "
-  echo "  ZicĐZ XrayR"
+  echo "  AikoCute Xrayr "
+  echo "  XrayR Docker"
   echo "  Vui lòng nhập một số để Thực Hiện Câu Lệnh:"
   for ((i = 1; i <= ${#operation[@]}; i++)); do
     hint="${operation[$i - 1]}"
